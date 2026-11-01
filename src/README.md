@@ -11,6 +11,7 @@ Raspberry Pi 4B 에서 실행하는 코드를 둠. 핀 배치는 저장소 루�
 | `pid.py` | PID 제어기 (측정값 미분, 적분 제한) |
 | `levitate.py` | 본 프로그램: 손 높이를 목표로 공 높이를 PID 로 유지 |
 | `fan_test.py` | 팬 단독 시험 (세기를 10% 씩 내렸다 올림) |
+| `fan_hold.py` | 팬을 정한 세기로 계속 돌림 (`python3 fan_hold.py 60`) |
 | `sonar_test.py` | 센서 2 개 거리 확인 (팬은 켜지 않음) |
 
 ## 실행 순서
