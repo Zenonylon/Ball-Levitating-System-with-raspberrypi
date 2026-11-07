@@ -1,6 +1,6 @@
 # 초음파 센서 2개 거리 확인 (팬은 켜지 않음)
 # 실행: python3 sonar_test.py   (Ctrl+C로 종료)
-# 공을 관 안에서 손으로 올렸다 내리고, 손을 HC-SR04 위에서 움직여 값이 따라오는지 보세요.
+# 공을 관 안에서 손으로 올렸다 내리고, 손을 HY-SRF05 #2 위에서 움직여 값이 따라오는지 보세요.
 from time import sleep
 
 import config

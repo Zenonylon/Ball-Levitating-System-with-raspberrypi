@@ -6,7 +6,7 @@
 FAN_PIN = 18           # 물리 12번 핀
 BALL_TRIG = 23         # HY-SRF05, 관 위에서 아래를 봄
 BALL_ECHO = 24
-HAND_TRIG = 17         # HC-SR04, 위를 봄 (손 높이)
+HAND_TRIG = 17         # HY-SRF05 #2, 위를 봄 (손 높이)
 HAND_ECHO = 27
 
 # ---- 팬 ----
@@ -20,7 +20,7 @@ BALL_DIAMETER = 4.0         # 탁구공 지름
 # 공 높이 = 관 바닥에서 공 아랫면까지. 0 이면 팬 위에 얹힌 상태.
 
 # ---- 목표 높이 ----
-# 손이 HC-SR04 위 HAND_NEAR~HAND_FAR 에 있으면 목표 높이를 TARGET_LOW~TARGET_HIGH 로 비례 대응
+# 손이 HY-SRF05 #2 위 HAND_NEAR~HAND_FAR 에 있으면 목표 높이를 TARGET_LOW~TARGET_HIGH 로 비례 대응
 HAND_NEAR = 5.0
 HAND_FAR = 40.0
 TARGET_LOW = 5.0

@@ -24,7 +24,7 @@ Raspberry Pi 4B 에서 실행하는 코드를 둠. 핀 배치는 저장소 루�
 4. `python3 levitate.py --target 20` — 목표 고정으로 PID 를 맞춤.
    공이 겨우 떠 있는 팬 세기를 찾아 `FAN_HOVER` 에 적고, `--kp --ki --kd` 로 계수를 바꿔 가며 시험.
    `--log run1.csv` 를 붙이면 시간 · 목표 · 높이 · 팬 세기가 CSV 로 남음
-5. `python3 levitate.py` — 손을 HC-SR04 위에서 올리고 내려 공이 따라오는지 확인
+5. `python3 levitate.py` — 손을 HY-SRF05 #2 위에서 올리고 내려 공이 따라오는지 확인
 
 공 거리를 연속 10 번 못 읽으면 팬을 끄고 종료함.
 
