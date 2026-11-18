@@ -15,7 +15,7 @@ FAN_MIN = 0.30         # 측정 필요: fan_test.py 에서 팬이 다시 돌기 
 FAN_HOVER = 0.60       # 측정 필요: 공이 관 가운데쯤 떠 있는 세기. PID 의 기본값으로 씀
 
 # ---- 관 · 센서 위치 (cm) ----
-BALL_SENSOR_HEIGHT = 50.0   # 측정 필요: 관 바닥(팬 위)에서 HY-SRF05 까지 높이
+BALL_SENSOR_HEIGHT = 48.5   # 2026-11-18 측정: 팬 윗면에서 HY-SRF05 원통 끝면까지
 BALL_DIAMETER = 4.0         # 탁구공 지름
 # 공 높이 = 관 바닥에서 공 아랫면까지. 0 이면 팬 위에 얹힌 상태.
 
