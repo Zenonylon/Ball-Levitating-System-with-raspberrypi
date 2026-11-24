@@ -36,3 +36,4 @@ I_LIMIT = 0.3          # 적분항이 팬 세기에 더할 수 있는 최대 크
 
 # ---- 안전 ----
 MAX_MISSES = 10        # 공 거리를 연속 이만큼 못 재면 팬을 끔
+BALL_OUT_OF_RANGE = 2.0  # 센서값이 BALL_SENSOR_HEIGHT 보다 이만큼(cm) 넘게 크면 잘못 잰 값으로 버림

@@ -75,6 +75,8 @@ def main():
                 sleep(0.005)  # 손 센서 메아리가 사라질 시간
 
             dist = ball.measure()
+            if dist is not None and dist > config.BALL_SENSOR_HEIGHT + config.BALL_OUT_OF_RANGE:
+                dist = None  # 관 바닥보다 먼 값은 메아리를 놓친 것 (공이 센서에 너무 가까울 때 52cm 근처로 튐)
             if dist is None:
                 misses += 1
                 if misses >= config.MAX_MISSES:
